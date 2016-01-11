@@ -1,4 +1,32 @@
 $(document).ready(function () {
+    /*
+     *  Simple image gallery. Uses default settings
+     */
+
+    $('.fancybox').fancybox({
+        afterLoad : function() {
+            //this.title = 'Produkt ' + (this.index + 1) + ' z ' + this.group.length + (this.title ? ' - ' + this.title : '');
+            this.title = 'Produkt ' + (this.index + 1) + ' z ' + this.group.length;
+        }
+    });
+
+    /*$('.fancybox').fancybox({
+
+
+        helpers : {
+            title : {
+                type : 'inside'
+            },
+            buttons	: {
+
+            }
+        },
+
+        afterLoad : function() {
+            this.title = 'Produkt ' + (this.index + 1) + ' z ' + this.group.length + (this.title ? ' - ' + this.title : '');
+        }
+    });*/
+
     var myCenter = new google.maps.LatLng(48.935688, 18.167734);
 
     function initialize() {

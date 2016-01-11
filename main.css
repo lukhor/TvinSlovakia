@@ -192,8 +192,65 @@ li.logo {
     width: 285px;
     height: 140px;
 }
+/* FANCYBOX CUSTOM CLASSES */
+[id*='produkt-']{
+    width:600px;display: none;
+}
 
-/*FONTS CLASSES*/
+/*.detail-table thead,
+.detail-table tr,
+.detail-table th {
+    font-size: 100%;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    background: 0 0;
+}
+
+.detail-table th {
+    padding: 10px 8px;
+    border-bottom: 2px solid black;
+    border-collapse: collapse;
+}
+
+.detail-table td {
+    padding: 9px 8px 0;
+}*/
+
+.detail-table
+{
+    font-size: 16px;
+    background: none;
+    margin: 45px;
+    width: 480px;
+    border-collapse: collapse;
+    text-align: left;
+}
+.detail-table th
+{
+    font-weight: bold;
+    color: black;
+    padding: 10px 8px;
+    border-bottom: 2px solid black;
+}
+.detail-table td
+{
+    color: black;
+    padding: 9px 8px 0px 8px;
+}
+.detail-table tbody tr:hover td
+{
+    color: #009;
+}
+
+[id*='produkt-'] h2 {
+    text-align: center;
+}
+
+
+/* FONTS CLASSES */
 .bold {
     font-weight: bold;
 }
@@ -220,4 +277,14 @@ li.logo {
 
 .no-decoration a {
     text-decoration: none;
+}
+
+/* CATALOGUE */
+.catalogue [class*='col-'] {
+    /*border: 1px solid;*/
+    height: 180px;
+}
+
+.catalogue img {
+    min-height: 100px;
 }
