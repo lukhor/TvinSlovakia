@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>Tvin Slovakia s.r.o.</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css" media="screen" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/jquery-1.11.3.min.js" type="text/javascript" language="JavaScript"></script>
+    <script src="fancybox/jquery.fancybox.pack.js" type="text/javascript" language="JavaScript"></script>
+    <script src="js/main.js" type="text/javascript" language="javascript"></script>
+    <noscript>Sorry, you need Javascript on to email me.</noscript>
+</head>
+<body>
+<header class="nav-down">
+    <div class="white-row"></div>
+    <div class="header-content">
+        <ul>
+            <li class="home">
+                <a id="home-btn" href="/tvin/index.html"><img src="images/home.png" alt="logo"/></a>
+            </li>
+            <li class="email padding-wide">
+                <a id="email-btn"
+                   href="&#109;&#97;&#x69;&#108;&#x74;&#x6f;&#58;&#x74;&#x76;&#x69;&#110;&#x40;&#x74;&#x76;&#105;&#x6e;&#46;&#x73;&#x6b;"><img
+                        src="images/email.png" alt="logo"/></a>
+            </li>
+            <li>
+                <a id="onas-btn" href="javascript:void(0);">O nás</a>
+            </li>
+            <li>
+                <a id="produkty-btn" href="/tvin/index.html">Produkty</a>
+            </li>
+            <li class="logo">
+                <a href="/tvin/index.html"><img class="logo" src="images/logo-final.png" alt="logo"/></a>
+            </li>
+            <li>
+                <a id="novinky-btn" href="javascript:void(0);">Novinky</a>
+            </li>
+            <li>
+                <a id="kontakty-btn" href="javascript:void(0);">Kontakt</a>
+            </li>
+        </ul>
+    </div>
+    <div class="fadeout"></div>
+</header>
+
+<!-------------->
+<!-- PRODUKTY -->
+<!-------------->
+<div id="main">
+    <div id="produkty-section" class="produkty">
+        <div class="col-1-1">
+            <h2>Trubičky a oblátky</h2>
+        </div>
+        <div class="grid grid-pad catalogue">
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-srdiecko-mini" title="Srdiečko Mini" data-fancybox-group="gallery">
+                    <img src="images/produkty/trubicky/KAT_514_SRDICKO.jpg">
+                    <p>Srdiečko Mini</p>
+                </a>
+            </div>
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-medvedici" title="Medvedíci" data-fancybox-group="gallery">
+                    <img src="images/produkty/trubicky/KAT_510_MEDVIDCI.jpg">
+                    <p>Medvedíci</p>
+                </a>
+            </div>
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-flamengo" title="Flamengo" data-fancybox-group="gallery">
+                    <img src="images/produkty/trubicky/KAT_512_FLAMENGO.jpg">
+                    <p>Flamengo</p>
+                </a>
+            </div>
+        </div>
+        <div class="grid grid-pad catalogue">
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-vejarik" title="Vejárik" data-fancybox-group="gallery">
+                    <img src="images/produkty/trubicky/VEJIREK.jpg">
+                    <p>Vejárik</p>
+                </a>
+            </div>
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-trubicka-10-80" title="Trubička 10x80" data-fancybox-group="gallery">
+                    <img src="images/produkty/trubicky/KAT_504_TRUBICKA_10X80.jpg">
+                    <p>Trubička 10x80</p>
+                </a>
+            </div>
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-trubicka-10-110-coko" title="Trubička 10x110 Čoko" data-fancybox-group="gallery">
+                    <img src="images/produkty/trubicky/KAT_506_TRUBICKA_10X110_COKO.jpg">
+                    <p>Trubička 10x110 Čoko</p>
+                </a>
+            </div>
+        </div>
+        <div class="grid grid-pad catalogue">
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-trubicka-22-130-coko" title="Trubička 22x130 Čoko" data-fancybox-group="gallery">
+                    <img src="images/produkty/trubicky/KAT_507_TRUBICKA_22X130_COKO.jpg">
+                    <p>Trubička 22x130 Čoko</p>
+                </a>
+            </div>
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-trubicka-28-100-coko" title="Trubička 28x100 Čoko" data-fancybox-group="gallery">
+                    <img src="images/produkty/trubicky/KAT_503_TRUBICKA_28X100_COKO.jpg">
+                    <p>Trubička 28x100 Čoko</p>
+                </a>
+            </div>
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-trubicka-28-100-lux" title="Trubička 28x100 Lux" data-fancybox-group="gallery">
+                    <img src="images/produkty/trubicky/KAT_509_TRUBICKA_28X100_LUX.jpg">
+                    <p>Trubička 28x100 Lux</p>
+                </a>
+            </div>
+        </div>
+        <div class="grid grid-pad catalogue">
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-trubicka-28-160-lux" title="Trubička 28x160 Lux" data-fancybox-group="gallery">
+                    <img src="images/produkty/trubicky/TRUBICKA_28X160_LUX.jpg">
+                    <p>Trubička 28x160 Lux</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/////////////////-->
+<!-- END of PRODUKTY -->
+<!--/////////////////-->
+
+<!---------------------->
+<!--FANCY INLINE BOXES-->
+<!---------------------->
+<div id="produkt-srdiecko-mini">
+    <h2>Srdiečko Mini</h2>
+    <img src="images/produkty/trubicky/KAT_514_SRDICKO.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-medvedici">
+    <h2>Medvedíci</h2>
+    <img src="images/produkty/trubicky/KAT_510_MEDVIDCI.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-flamengo">
+    <h2>Flamengo</h2>
+    <img src="images/produkty/trubicky/KAT_512_FLAMENGO.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-vejarik">
+    <h2>Vejárik</h2>
+    <img src="images/produkty/trubicky/VEJIREK.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-trubicka-10-80">
+    <h2>Trubička 10x80</h2>
+    <img src="images/produkty/trubicky/KAT_504_TRUBICKA_10X80.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-trubicka-10-110-coko">
+    <h2>Trubička 10x110 Čoko</h2>
+    <img src="images/produkty/trubicky/KAT_506_TRUBICKA_10X110_COKO.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-trubicka-22-130-coko">
+    <h2>Trubička 22x130 Čoko</h2>
+    <img src="images/produkty/trubicky/KAT_507_TRUBICKA_22X130_COKO.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-trubicka-28-100-coko">
+    <h2>Trubička 28x100 Čoko</h2>
+    <img src="images/produkty/trubicky/KAT_503_TRUBICKA_28X100_COKO.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-trubicka-28-100-lux">
+    <h2>Trubička 28x100 Lux</h2>
+    <img src="images/produkty/trubicky/KAT_509_TRUBICKA_28X100_LUX.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-trubicka-28-160-lux">
+    <h2>Trubička 28x160 Lux</h2>
+    <img src="images/produkty/trubicky/TRUBICKA_28X160_LUX.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+
+<!--/////////////////////////-->
+<!--END of FANCY INLINE BOXES-->
+<!--/////////////////////////-->
+
+</body>
+</html>

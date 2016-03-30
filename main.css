@@ -282,9 +282,13 @@ li.logo {
 /* CATALOGUE */
 .catalogue [class*='col-'] {
     /*border: 1px solid;*/
-    height: 180px;
+    height: 310px;
 }
 
 .catalogue img {
     min-height: 100px;
+}
+
+.fancybox img {
+    width: 90%;
 }

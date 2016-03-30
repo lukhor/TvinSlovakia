@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <title>Tvin Slovakia s.r.o.</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css" media="screen" />
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script src="js/jquery-1.11.3.min.js" type="text/javascript" language="JavaScript"></script>
+    <script src="fancybox/jquery.fancybox.pack.js" type="text/javascript" language="JavaScript"></script>
     <script src="js/main.js" type="text/javascript" language="javascript"></script>
     <noscript>Sorry, you need Javascript on to email me.</noscript>
 </head>
@@ -27,7 +29,7 @@
                 <a id="onas-btn" href="javascript:void(0);">O nás</a>
             </li>
             <li>
-                <a id="produkty-btn" href="javascript:void(0);">Produkty</a>
+                <a id="produkty-btn" href="/tvin/index.html">Produkty</a>
             </li>
             <li class="logo">
                 <a href="/tvin/index.html"><img class="logo" src="images/logo-final.png" alt="logo"/></a>
@@ -42,152 +44,211 @@
     </div>
     <div class="fadeout"></div>
 </header>
+
+<!-------------->
+<!-- PRODUKTY -->
+<!-------------->
 <div id="main">
-    <!--Produkty-->
     <div id="produkty-section" class="produkty">
-        <div class="grid grid-pad">
-            <div class="col-1-3">
-                <img src="images/product1.png" alt="Liate kornútky">
-                <a href="">
-                    <span>Liate kornútky</span>
-                </a>
-            </div>
-            <div class="col-1-3">
-                <img src="images/product2.png" alt="Krúžené kornútky">
-                <a href="">
-                    <span>Krúžené kornútky</span>
-                </a>
-            </div>
-            <div class="col-1-3">
-                <img src="images/product3.png" alt="Bechery">
-                <a href="">
-                    <span>Bechery</span>
-                </a>
-            </div>
-        </div>
-        <div class="grid grid-pad">
-            <div class="col-1-3">
-                <img src="images/product4.png" alt="Trubičky a oplátky">
-                <a href="">
-                    <span>Trubičky a oplátky</span>
-                </a>
-            </div>
-            <div class="col-1-3">
-                <img src="images/product5.png" alt="Priemyselná výroba">
-                <a href="">
-                    <span>Priemyselná výroba</span>
-                </a>
-            </div>
-            <div class="col-1-3">
-                <img src="images/product6.png" alt="Dekoratívne doplnky">
-                <a href="">
-                    <span>Dekoratívne doplnky</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <!--Oddelovac-->
-    <div class="grid">
-        <img src="images/separator.png" alt="separator">
-    </div>
-    <!--Text1-->
-    <div id="onas-section" class="grid grid-pad">
         <div class="col-1-1">
-            <p class="gold size-14">Po celé stáročia sa zmrzlina podávala na tanierikoch a mištičkách, alebo sa nanášala
-                na
-                hrubšie oplátky, ale nie je nijaký historický záznam o tom, že by do roku 1904, keď bola svetová výstava
-                v St. Louis, existovali pre zmrzlinu nejaké cukrárske platy, ktoré by sa dali i zjesť.</p></div>
-    </div>
-    <!--Obrazky-->
-    <div class="grid">
-        <img src="images/photo_separator.png" alt="separator">
-    </div>
-    <!--Text2-->
-    <div class="grid grid-pad">
-        <div class="col-1-1">
-            <p class="gold size-14">Podľa jednej povesti Fornachouvi raz došli papierové tanieriky a tak si jeden
-                teenager,
-                ktorý sa učil za opravára hodín, stočil jednu Hamwiho oplátku do tvaru lievika a vytvoril tak novú
-                senzáciu.</p>
+            <h2>Dekoratívne doplnky</h2>
         </div>
-    </div>
-    <!--Text v stlpcoch-->
-    <div class="grid grid-pad">
-        <div class="col-1-2">
-            <p class="brown bold">ZMRZLINOVÉ KORNÚTY, 1904, ST. LOUIS, MISSOURI</p>
-            <br/>
-
-            <p class="gold">
-                Po celé stáročia sa zmrzlina podávala na tanierikoch a mištičkách, alebo sa nanášala na hrubšie oplátky,
-                ale nie je nijaký historický záznam o tom, že by do roku 1904, keď bola svetová výstava v St. Louis,
-                existovali pre zmrzlinu nejaké cukrárske platy, ktoré by sa dali i zjesť. Výstava bola usporiadaná pri
-                príležitosti stého výročia vzniku Lousiany a stála 15 miliónov dolárov (je to suma, za ktorú bola
-                Lousiana kúpená) a boli na nej rôzne atrakcie, vrátane Vojenskej kapely Johna Philipa Sousa a prvej
-                ukážky prečenia v elektrickej rúre. Výstavu navštívilo 13 miliónov návštevníkov, čo znamenalo zvýšenú
-                požiadavku na stravovanie. Boli tu v jednej časti pri sebe stránky sýrskeho pekára Ernesta Hamwiho,
-                ktorý sa špecializoval na pečenie oplátiek a Američan francúzskeho pôvodu Arnold Fornachou,
-                špecialista na zmrzlinu.
-            </p>
+        <div class="grid grid-pad catalogue">
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-slamka-pruhovana" title="Slamka Flexi Pruhovaná" data-fancybox-group="gallery">
+                    <img src="images/produkty/dekorativne_doplnky/BRCKA_1.jpg">
+                    <p>Slamka Flexi. Pruhovaná</p>
+                </a>
+            </div>
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-slamka-flexi-palmicka" title="Slamka Flexi s palmičkou" data-fancybox-group="gallery">
+                    <img src="images/produkty/dekorativne_doplnky/BRCKO_PALMICKA_3.jpg">
+                    <p>Slamka Flexi s Palmičkou</p>
+                </a>
+            </div>
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-palmicka-leskla" title="Palmička Lesklá" data-fancybox-group="gallery">
+                    <img src="images/produkty/dekorativne_doplnky/PALMICKA_LESKLA_3.jpg">
+                    <p>Palmička Lesklá</p>
+                </a>
+            </div>
         </div>
-        <div class="col-1-2">
-            <p class="brown bold">AKO VZNIKLI KORNÚTKY</p>
-            <br/>
-
-            <p class="gold">
-                Podľa jednej povesti Fornachou-ovi raz došli papierové tanieriky a tak si jeden teenager,
-                ktorý sa učil za opravára hodín, stočil jednu Hamwi-ho oplátku do tvaru lievika a vytvoril tak novú
-                senzáciu.
-                Podľa inej povesti sa prvenstvo pripisuje Ernestovi Hamwi-mu. Výrobca oplátiek Hamwi, imigrant z
-                Damašku,
-                ponúkal návštevníkovi zalabiu, tenké perzské oplátky posypané cukrom. Predpokladá sa,
-                že Fornachou použil tieto zalabie pre svoje potreby. Nech už je tak, či onak, viacero novín z vtedajšej
-                doby jednoznaťne zaznamenávajú, že zmrzlinové kornútky sa stali hlavnou charakteristikou veľtrhu
-                v St. Louis. Kornúty sa zvinovali ručne do roku 1912, keď Frederick Bruckman, vynálezca v Portlandu
-                v Oregone, patentoval stroj na robenie týchto kornútov. Ani nie za desať rokov, jedna tretina
-                konzumovanej zmrzliny v USA sa jedla zo zmrzlinových kornútkov
-            </p>
+        <div class="grid grid-pad catalogue">
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-zvieratka" title="Zvieratká" data-fancybox-group="gallery">
+                    <img src="images/produkty/dekorativne_doplnky/ZVIRATKA_2.jpg">
+                    <p>Zvieratká</p>
+                </a>
+            </div>
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-lyzicky" title="Lyžičky" data-fancybox-group="gallery">
+                    <img src="images/produkty/dekorativne_doplnky/LZICKY.jpg">
+                    <p>Lyžičky</p>
+                </a>
+            </div>
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-dazdnicek" title="Dáždniček" data-fancybox-group="gallery">
+                    <img src="images/produkty/dekorativne_doplnky/DESTNICEK.jpg">
+                    <p>Dáždniček</p>
+                </a>
+            </div>
         </div>
-    </div>
-    <!--Obrazok spodok-->
-    <div class="grid grid-pad">
-        <div class="col-1-1">
-            <img src="images/last_photo.png" alt="last-photo">
-        </div>
-    </div>
-    <!--Kontakty-->
-    <div id="kontakty-section" class="grid grid-pad">
-        <div class="col-1-3">
-            <p class="size-20 light gold">Kontakt</p>
-
-            <p class="size-14 brown no-decoration">tvin@tvin.sk</p>
-
-            <p class="size-14 brown">+421 905 183 341</p>
-        </div>
-        <div class="col-1-3">
-            <p class="size-20 light gold">Tvin Slovakia s.r.o.</p>
-
-            <p class="size-14 brown bold">Ing. Pavol Horňák</p>
-
-            <p class="size-14 brown">Žilinská 537/6</p>
-
-            <p class="size-14 brown">91401 Trenčianska Teplá</p>
-        </div>
-        <div class="col-1-3">
-            <p class="size-20 light gold">Prevádzka</p>
-
-            <p class="size-14 brown">Družstevná 313</p>
-
-            <p class="size-14 brown">01851 Nová Dubnica - Veľký Kolačín</p>
-        </div>
-    </div>
-    <!--Mapa-->
-    <div class="grid grid-margin">
-        <div id="map"></div>
-    </div>
-    <div class="grid grid-margin-no-bottom">
-        <img src="images/footer.png" alt="footer">
     </div>
 </div>
+<!--/////////////////-->
+<!-- END of PRODUKTY -->
+<!--/////////////////-->
+
+<!---------------------->
+<!--FANCY INLINE BOXES-->
+<!---------------------->
+<div id="produkt-slamka-pruhovana">
+    <h2>Slamka Flexi. Pruhovaná</h2>
+    <img src="images/produkty/dekorativne_doplnky/BRCKA_1.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-slamka-flexi-palmicka">
+    <h2>Slamka Flexi s Palmičkou</h2>
+    <img src="images/produkty/dekorativne_doplnky/BRCKO_PALMICKA_3.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-palmicka-leskla">
+    <h2>Palmička Lesklá</h2>
+    <img src="images/produkty/dekorativne_doplnky/PALMICKA_LESKLA_3.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-zvieratka">
+    <h2>Zvieratká</h2>
+    <img src="images/produkty/dekorativne_doplnky/ZVIRATKA_2.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-lyzicky">
+    <h2>Lyžičky</h2>
+    <img src="images/produkty/dekorativne_doplnky/LZICKY.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-dazdnicek">
+    <h2>Dáždniček</h2>
+    <img src="images/produkty/dekorativne_doplnky/DESTNICEK.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<!--/////////////////////////-->
+<!--END of FANCY INLINE BOXES-->
+<!--/////////////////////////-->
 
 </body>
 </html>

@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>Tvin Slovakia s.r.o.</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css" media="screen" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/jquery-1.11.3.min.js" type="text/javascript" language="JavaScript"></script>
+    <script src="fancybox/jquery.fancybox.pack.js" type="text/javascript" language="JavaScript"></script>
+    <script src="js/main.js" type="text/javascript" language="javascript"></script>
+    <noscript>Sorry, you need Javascript on to email me.</noscript>
+</head>
+<body>
+<header class="nav-down">
+    <div class="white-row"></div>
+    <div class="header-content">
+        <ul>
+            <li class="home">
+                <a id="home-btn" href="/tvin/index.html"><img src="images/home.png" alt="logo"/></a>
+            </li>
+            <li class="email padding-wide">
+                <a id="email-btn"
+                   href="&#109;&#97;&#x69;&#108;&#x74;&#x6f;&#58;&#x74;&#x76;&#x69;&#110;&#x40;&#x74;&#x76;&#105;&#x6e;&#46;&#x73;&#x6b;"><img
+                        src="images/email.png" alt="logo"/></a>
+            </li>
+            <li>
+                <a id="onas-btn" href="javascript:void(0);">O nás</a>
+            </li>
+            <li>
+                <a id="produkty-btn" href="/tvin/index.html">Produkty</a>
+            </li>
+            <li class="logo">
+                <a href="/tvin/index.html"><img class="logo" src="images/logo-final.png" alt="logo"/></a>
+            </li>
+            <li>
+                <a id="novinky-btn" href="javascript:void(0);">Novinky</a>
+            </li>
+            <li>
+                <a id="kontakty-btn" href="javascript:void(0);">Kontakt</a>
+            </li>
+        </ul>
+    </div>
+    <div class="fadeout"></div>
+</header>
+
+<!-------------->
+<!-- PRODUKTY -->
+<!-------------->
+<div id="main">
+    <div id="produkty-section" class="produkty">
+        <div class="col-1-1">
+            <h2>Luxusné kornúty</h2>
+        </div>
+        <div class="grid grid-pad catalogue">
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-berta-coko" title="Berta Čoko" data-fancybox-group="gallery">
+                    <img src="images/produkty/luxusne_kornuty/BERTA_COKO.jpg">
+                    <p>Berta Čoko</p>
+                </a>
+            </div>
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-berticka-coko" title="Bertička Čoko" data-fancybox-group="gallery">
+                    <img src="images/produkty/luxusne_kornuty/BERTICKA_COKO.jpg">
+                    <p>Bertička Čoko</p>
+                </a>
+            </div>
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-berticka-coko-macek" title="Bertička Čoko + Bar. Máček" data-fancybox-group="gallery">
+                    <img src="images/produkty/luxusne_kornuty/BERTICKA_COKO_BAREVNY_MACEK.jpg">
+                    <p>Bertička Čoko + Bar. Máček</p>
+                </a>
+            </div>
+        </div>
+        <div class="grid grid-pad catalogue">
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-berticka-coko-kokos" title="Bertička Čoko + Kokos" data-fancybox-group="gallery">
+                    <img src="images/produkty/luxusne_kornuty/BERTICKA_COKO_KOKOS.jpg">
+                    <p>Bertička Čoko + Kokos</p>
+                </a>
+            </div>
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-berticka-coko-orech" title="Bertička Čoko + Orech" data-fancybox-group="gallery">
+                    <img src="images/produkty/luxusne_kornuty/BERTICKA_COKO_ORECH.jpg">
+                    <p>Bertička Čoko + Orech</p>
+                </a>
+            </div>
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-super-twiggy-coko-macek" title="Super Twiggy Čoko + Bar. Máček" data-fancybox-group="gallery">
+                    <img src="images/produkty/luxusne_kornuty/SUPER_TWIGGY_COKO_BAREVNY_MACEK.jpg">
+                    <p>Super Twiggy Čoko + Bar. Máček</p>
+                </a>
+            </div>
+        </div>
+        <div class="grid grid-pad catalogue">
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-super-twiggy-coko-kokos" title="Super Twiggy Čoko + Kokos" data-fancybox-group="gallery">
+                    <img src="images/produkty/luxusne_kornuty/SUPER_TWIGGY_COKO_KOKOS.jpg">
+                    <p>Super Twiggy Čoko + Kokos</p>
+                </a>
+            </div>
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-super-twiggy-coko-orech" title="Super Twiggy Čoko + Orech" data-fancybox-group="gallery">
+                    <img src="images/produkty/luxusne_kornuty/SUPER_TWIGGY_COKO_ORECH.jpg">
+                    <p>Super Twiggy Čoko + Orech</p>
+                </a>
+            </div>
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-spin-coko" title="Spin Čoko" data-fancybox-group="gallery">
+                    <img src="images/produkty/luxusne_kornuty/SPIN_COKO.jpg">
+                    <p>Spin Čoko</p>
+                </a>
+            </div>
+        </div>
+        <div class="grid grid-pad catalogue">
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-spin-coko-bar-macek" title="Spin Čoko + Bar. Máček" data-fancybox-group="gallery">
+                    <img src="images/produkty/luxusne_kornuty/SPIN_COKO_BAREVNY_MACEK.jpg">
+                    <p>Spin Čoko + Bar. Máček</p>
+                </a>
+            </div>
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-spin-coko-kokos" title="Spin Čoko + Kokos" data-fancybox-group="gallery">
+                    <img src="images/produkty/luxusne_kornuty/SPIN_COKO_KOKOS.jpg">
+                    <p>Spin Čoko + Kokos</p>
+                </a>
+            </div>
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-spin-coko-orech" title="Spin Čoko + Orech" data-fancybox-group="gallery">
+                    <img src="images/produkty/luxusne_kornuty/SPIN_COKO_ORECH.jpg">
+                    <p>Spin Čoko + Orech</p>
+                </a>
+            </div>
+        </div>
+        <div class="grid grid-pad catalogue">
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-twiggy-coko-bar-macek" title="Twiggy Čoko + Bar. Máček" data-fancybox-group="gallery">
+                    <img src="images/produkty/luxusne_kornuty/TWIGGY_COKO_BAREVNY_MACEK.jpg">
+                    <p>Twiggy Čoko + Bar. Máček</p>
+                </a>
+            </div>
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-twiggy-coko-kokos" title="Twiggy Čoko + Kokos" data-fancybox-group="gallery">
+                    <img src="images/produkty/luxusne_kornuty/TWIGY_COKO_KOKOS.jpg">
+                    <p>Twiggy Čoko + Kokos</p>
+                </a>
+            </div>
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-twiggy-coko-orech" title="Twiggy Čoko + Orech" data-fancybox-group="gallery">
+                    <img src="images/produkty/luxusne_kornuty/TWIGGY_COKO_ORECH.jpg">
+                    <p>Twiggy Čoko + Orech</p>
+                </a>
+            </div>
+        </div>
+        <div class="grid grid-pad catalogue">
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-wera-160-coko" title="Wera 160 Čoko" data-fancybox-group="gallery">
+                    <img src="images/produkty/luxusne_kornuty/WERA160_COKO.jpg">
+                    <p>Wera 160 Čoko</p>
+                </a>
+            </div>
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-wera-160-coko-bar-macek" title="Wera 160 Čoko + Bar. Máček" data-fancybox-group="gallery">
+                    <img src="images/produkty/luxusne_kornuty/WERA160_COKO_BAREVNY_MACEK.jpg">
+                    <p>Wera 160 Čoko + Bar. Máček</p>
+                </a>
+            </div>
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-wera-160-coko-kokos" title="Wera 160 Čoko + Kokos" data-fancybox-group="gallery">
+                    <img src="images/produkty/luxusne_kornuty/WERA160_COKO_KOKOS.jpg">
+                    <p>Wera 160 Čoko + Kokos</p>
+                </a>
+            </div>
+        </div>
+        <div class="grid grid-pad catalogue">
+            <div class="col-1-3">
+                <a class="fancybox" href="#produkt-wera-160-coko-orech" title="Wera 160 Čoko + Orech" data-fancybox-group="gallery">
+                    <img src="images/produkty/luxusne_kornuty/WERA160_COKO_ORECH.jpg">
+                    <p>Wera 160 Čoko + Orech</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/////////////////-->
+<!-- END of PRODUKTY -->
+<!--/////////////////-->
+
+<!---------------------->
+<!--FANCY INLINE BOXES-->
+<!---------------------->
+<div id="produkt-berta-coko">
+    <h2>Berta Čoko</h2>
+    <img src="images/produkty/luxusne_kornuty/BERTA_COKO.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-berticka-coko">
+    <h2>Bertička Čoko</h2>
+    <img src="images/produkty/luxusne_kornuty/BERTICKA_COKO.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-berticka-coko-macek">
+    <h2>Bertička Čoko + Bar. Máček</h2>
+    <img src="images/produkty/luxusne_kornuty/BERTICKA_COKO_BAREVNY_MACEK.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-berticka-coko-kokos">
+    <h2>Bertička Čoko + Kokos</h2>
+    <img src="images/produkty/luxusne_kornuty/BERTICKA_COKO_KOKOS.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-berticka-coko-orech">
+    <h2>Bertička Čoko + Orech</h2>
+    <img src="images/produkty/luxusne_kornuty/BERTICKA_COKO_ORECH.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-super-twiggy-coko-macek">
+    <h2>Super Twiggy Čoko + Bar. Máček</h2>
+    <img src="images/produkty/luxusne_kornuty/SUPER_TWIGGY_COKO_BAREVNY_MACEK.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-super-twiggy-coko-kokos">
+    <h2>Super Twiggy Čoko + Kokos</h2>
+    <img src="images/produkty/luxusne_kornuty/SUPER_TWIGGY_COKO_KOKOS.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div><div id="produkt-super-twiggy-coko-orech">
+    <h2>Super Twiggy Čoko + Orech</h2>
+    <img src="images/produkty/luxusne_kornuty/SUPER_TWIGGY_COKO_ORECH.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-spin-coko">
+    <h2>Spin Čoko</h2>
+    <img src="images/produkty/luxusne_kornuty/SPIN_COKO.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-spin-coko-bar-macek">
+    <h2>Spin Čoko + Bar. Máček</h2>
+    <img src="images/produkty/luxusne_kornuty/SPIN_COKO_BAREVNY_MACEK.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-spin-coko-kokos">
+    <h2>Spin Čoko + Kokos</h2>
+    <img src="images/produkty/luxusne_kornuty/SPIN_COKO_KOKOS.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-spin-coko-orech">
+    <h2>Spin Čoko + Orech</h2>
+    <img src="images/produkty/luxusne_kornuty/SPIN_COKO_ORECH.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-twiggy-coko-bar-macek">
+    <h2>Twiggy Čoko + Bar. Máček</h2>
+    <img src="images/produkty/luxusne_kornuty/TWIGGY_COKO_BAREVNY_MACEK.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-twiggy-coko-kokos">
+    <h2>Twiggy Čoko + Kokos</h2>
+    <img src="images/produkty/luxusne_kornuty/TWIGY_COKO_KOKOS.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-twiggy-coko-orech">
+    <h2>Twiggy Čoko + Orech</h2>
+    <img src="images/produkty/luxusne_kornuty/TWIGGY_COKO_ORECH.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-wera-160-coko">
+    <h2>Wera 160 Čoko</h2>
+    <img src="images/produkty/luxusne_kornuty/WERA160_COKO.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-wera-160-coko-bar-macek">
+    <h2>Wera 160 Čoko + Bar. Máček</h2>
+    <img src="images/produkty/luxusne_kornuty/WERA160_COKO_BAREVNY_MACEK.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-wera-160-coko-kokos">
+    <h2>Wera 160 Čoko + Kokos</h2>
+    <img src="images/produkty/luxusne_kornuty/WERA160_COKO_KOKOS.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+<div id="produkt-wera-160-coko-orech">
+    <h2>Wera 160 Čoko + Orech</h2>
+    <img src="images/produkty/luxusne_kornuty/WERA160_COKO_ORECH.jpg" width="100%">
+    <!--<table class="detail-table">
+        <thead>
+            <tr>
+                <th>Kod</th>
+                <th>Dlzka</th>
+                <th>Priemer</th>
+                <th>KS/KA</th>
+                <th>KA/PAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>121 mm</td>
+                <td>48 mm</td>
+                <td>672 ks</td>
+                <td>36 ka</td>
+            </tr>
+        </tbody>
+    </table>-->
+</div>
+
+<!--/////////////////////////-->
+<!--END of FANCY INLINE BOXES-->
+<!--/////////////////////////-->
+
+</body>
+</html>
