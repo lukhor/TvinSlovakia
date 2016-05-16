@@ -194,7 +194,8 @@ li.logo {
 }
 /* FANCYBOX CUSTOM CLASSES */
 [id*='produkt-']{
-    width:600px;display: none;
+    width:600px;
+    display: none;
 }
 
 /*.detail-table thead,
@@ -223,7 +224,7 @@ li.logo {
 {
     font-size: 16px;
     background: none;
-    margin: 45px;
+    margin: 5px auto;
     width: 480px;
     border-collapse: collapse;
     text-align: left;
@@ -247,8 +248,15 @@ li.logo {
 
 [id*='produkt-'] h2 {
     text-align: center;
+    margin-top: 0px;
 }
 
+[id*='produkt-'] img {
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+    width: 100%
+}
 
 /* FONTS CLASSES */
 .bold {
@@ -291,4 +299,22 @@ li.logo {
 
 .fancybox img {
     width: 90%;
+}
+#novinky {
+    width: 500px;
+    height: 150px;
+    display: none;
+}
+
+#novinky h2 {
+    text-align: center;
+}
+
+#novinky p {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.hidden {
+	display: none;
 }

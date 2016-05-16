@@ -10,6 +10,13 @@ $(document).ready(function () {
         }
     });
 
+    $('.novinky').fancybox({
+        afterLoad : function() {
+            //this.title = 'Produkt ' + (this.index + 1) + ' z ' + this.group.length + (this.title ? ' - ' + this.title : '');
+            this.title = 'Novinka ' + (this.index + 1) + ' z ' + this.group.length;
+        }
+    });
+
     /*$('.fancybox').fancybox({
 
 
